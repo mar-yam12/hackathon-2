@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const CartPage = () => {
@@ -37,7 +38,7 @@ const CartPage = () => {
                 className="flex items-center justify-between border-b pb-4"
               >
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src={item.img}
                     alt={item.name}
                     className="w-20 h-20 object-cover rounded-md"

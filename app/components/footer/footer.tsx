@@ -1,8 +1,6 @@
-import { IoLogoTwitter } from "react-icons/io";
-import { RiFacebookFill } from "react-icons/ri";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import { IoLogoGithub } from "react-icons/io5";
 import NewsLetter from "../newsletter/newsletter";
+import Image from "next/image";
 
 
     
@@ -16,7 +14,7 @@ import NewsLetter from "../newsletter/newsletter";
                             <div>
                                 <h3 className="font-bold text-lg">SHOP.CO</h3>
                                 <p className="text-gray-600 mt-2">
-                                    We have clothes that suit your style and which you're proud to wear. From women to men.
+                                    We have clothes that suit your style and which you are proud to wear. From women to men.
                                 </p>
                                 <div className="flex space-x-4 mt-4">
                                     <a href="#" aria-label="Twitter" className="text-gray-600 hover:text-black ">
@@ -75,11 +73,11 @@ import NewsLetter from "../newsletter/newsletter";
                                     Shop.co © {new Date().getFullYear()} All Rights Reserved
                                 </p>
                                 <div className="flex space-x-4 mt-4 md:mt-0">
-                                    <img src="/footer/visa.png" alt="Visa" className="h-10" />
-                                    <img src="/footer/mastercard.png" alt="Mastercard" className="h-10" />
-                                    <img src="/footer/paypal.png" alt="PayPal" className="h-10" />
-                                    <img src="/footer/applepay.png" alt="Apple Pay" className="h-10" />
-                                    <img src="/footer/googlepay.png" alt="Google Pay" className="h-10" />
+                                    <Image width={0} height={0} src="/footer/visa.png" alt="Visa" className="h-10" />
+                                    <Image width={0} height={0} src="/footer/mastercard.png" alt="Mastercard" className="h-10" />
+                                    <Image width={0} height={0} src="/footer/paypal.png" alt="PayPal" className="h-10" />
+                                    <Image width={0} height={0} src="/footer/applepay.png" alt="Apple Pay" className="h-10" />
+                                    <Image width={0} height={0} src="/footer/googlepay.png" alt="Google Pay" className="h-10" />
                                 </div>
                             </div>
                         </div>

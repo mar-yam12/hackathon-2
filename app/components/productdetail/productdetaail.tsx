@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useState } from "react";
 
 const ProductDetails = () => {
@@ -15,24 +16,24 @@ const ProductDetails = () => {
       {/* Image Gallery */}
       <div>
         <div className="aspect-square w-full rounded-lg overflow-hidden">
-          <img
+          <Image
             src="/greenshirt.png"
             alt="Main Product"
             className="object-cover w-full h-full"
           />
         </div>
         <div className="flex mt-4 space-x-4">
-          <img
+          <Image
             src="/greenshirt.png"
             alt="Thumbnail 1"
             className="w-20 h-20 rounded-lg object-cover cursor-pointer border"
           />
-          <img
+          <Image
             src="/greenshirt2.png"
             alt="Thumbnail 2"
             className="w-20 h-20 rounded-lg object-cover cursor-pointer border"
           />
-          <img
+          <Image
             src="/greenshirt3.png"
             alt="Thumbnail 3"
             className="w-20 h-20 rounded-lg object-cover cursor-pointer border"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const BrowseDressStyle = () => {
@@ -43,7 +44,9 @@ const BrowseDressStyle = () => {
             className={`relative bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition ${style.size}`}
           >
            
-            <img
+            <Image
+            width={1440}
+            height={289}
               src={style.image}
               alt={style.name}
               className="w-full h-[289] object-cover"
